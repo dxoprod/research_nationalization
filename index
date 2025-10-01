@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Исследование: национализация в России</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px 30px;
+      background: #1f2937;
+      color: white;
+    }
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+      color: #d1d5db;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 25px;
+    }
+    label {
+      display: block;
+      margin: 8px 0;
+      cursor: pointer;
+    }
+    input[type="text"], input[type="number"] {
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .submit-btn {
+      display: block;
+      margin: 30px auto 0;
+      padding: 12px 30px;
+      background: #2563eb;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .submit-btn:hover {
+      background: #1e40af;
+    }
+    footer {
+      text-align: center;
+      font-size: 13px;
+      margin: 40px 0 20px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Исследование: национализация в России</h1>
+    <p>Уважаемые коллеги! Просим вас пройти короткий опрос о национализации. Ваши ответы анонимны и будут использованы только в обобщённом виде.</p>
+  </header>
+
+  <div class="container">
+    <form>
+      <h2>1. В чем главные причины национализации в России?</h2>
+      <label><input type="checkbox" name="q1"> Дефицит государственного бюджета</label>
+      <label><input type="checkbox" name="q1"> Необходимость повышения стратегической безопасности</label>
+      <label><input type="checkbox" name="q1"> Желание пересмотреть итоги приватизации</label>
+      <label><input type="checkbox" name="q1"> Борьба с коррупцией</label>
+      <label><input type="checkbox" name="q1"> В России нет национализации</label>
+      <label>Другое: <input type="text" name="q1_other"></label>
+
+      <h2>2. Поддерживаете ли вы национализацию в России?</h2>
+      <label><input type="radio" name="q2"> Не поддерживаю</label>
+      <label><input type="radio" name="q2"> Поддерживаю, но считаю дальнейшее продолжение нецелесообразным</label>
+      <label><input type="radio" name="q2"> Поддерживаю в отношении стратегических объектов</label>
+      <label><input type="radio" name="q2"> Поддерживаю в отношении активов недружественных стран</label>
+
+      <h2>3. Как ситуация с национализацией влияет на инвестиционный климат?</h2>
+      <label><input type="radio" name="q3"> Положительно</label>
+      <label><input type="radio" name="q3"> Отрицательно</label>
+      <label><input type="radio" name="q3"> Нейтрально</label>
+
+      <h2>4. Как вы оцениваете уровень независимости судов?</h2>
+      <input type="number" min="1" max="10" placeholder="Оцените от 1 до 10">
+
+      <button type="submit" class="submit-btn">Отправить</button>
+    </form>
+  </div>
+
+  <footer>
+    © 2025 Павел Хлюстов и партнеры. Все права защищены.
+  </footer>
+</body>
+</html>
